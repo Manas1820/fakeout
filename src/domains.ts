@@ -1,6 +1,8 @@
 // AUTO-GENERATED FILE — DO NOT EDIT MANUALLY
 export const DISPOSABLE_DOMAINS: ReadonlySet<string> = new Set<string>([
   "0-mail.com",
+  "01022.hk",
+  "01130.hk",
   "027168.com",
   "062e.com",
   "0815.ru",
