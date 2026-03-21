@@ -12,7 +12,7 @@
 A tiny, zero-dependency library that detects disposable (burner) email domains.
 The blocklist auto-updates daily — no manual maintenance required.
 
-[Install](#install) · [Usage](#usage) · [API](#api) · [How it works](#how-it-works)
+[Install](#install) · [Usage](#usage) · [API](#api) · [Staying up to date](#staying-up-to-date) · [How it works](#how-it-works)
 
 </div>
 
@@ -115,6 +115,39 @@ Checks if a bare domain is in the blocklist. Handles uppercase and extra whitesp
 ### `getDisposableDomains(): string[]`
 
 Returns a sorted array of all known disposable domains. Each call returns a fresh copy, so mutations won't affect the internal dataset.
+
+## Staying up to date
+
+Domain updates are published as **patch** releases (e.g. `1.0.1` → `1.0.2`), so the default npm semver range already keeps you current:
+
+```bash
+npm install fakeout   # saves "^1.x.x" — automatically resolves to the latest patch
+```
+
+Every `npm install` (or `pnpm install` / `yarn install`) in a fresh CI environment or after deleting your lockfile will pull the newest patch. To update an existing lockfile:
+
+```bash
+npm update fakeout
+```
+
+### Automated dependency updates
+
+For hands-free updates, add [Renovate](https://github.com/renovatebot/renovate) or [Dependabot](https://docs.github.com/en/code-security/dependabot) to your repo. They'll open PRs whenever a new fakeout version is published.
+
+<details>
+<summary>Example Dependabot config</summary>
+
+```yaml
+# .github/dependabot.yml
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: daily
+```
+
+</details>
 
 ## How it works
 
