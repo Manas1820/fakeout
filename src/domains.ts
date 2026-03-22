@@ -2349,6 +2349,7 @@ export const DISPOSABLE_DOMAINS: ReadonlySet<string> = new Set<string>([
   "ip4.pp.ua",
   "ip6.li",
   "ip6.pp.ua",
+  "ipaddressforme.com",
   "ipoo.org",
   "ippandansei.tk",
   "ipsur.org",
