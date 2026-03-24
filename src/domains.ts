@@ -642,6 +642,7 @@ export const DISPOSABLE_DOMAINS: ReadonlySet<string> = new Set<string>([
   "binka.me",
   "binkmail.com",
   "binnary.com",
+  "binsh.kro.kr",
   "bio-muesli.info",
   "bio-muesli.net",
   "biojuris.com",
