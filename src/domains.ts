@@ -4702,6 +4702,7 @@ export const DISPOSABLE_DOMAINS: ReadonlySet<string> = new Set<string>([
   "trangiabao.click",
   "trangzim.uk",
   "translateid.com",
+  "traodoinick.com",
   "trap-mail.de",
   "trash-amil.com",
   "trash-mail.at",
