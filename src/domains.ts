@@ -3082,6 +3082,7 @@ export const DISPOSABLE_DOMAINS: ReadonlySet<string> = new Set<string>([
   "mannawo.com",
   "mansiondev.com",
   "maohe.cloud",
+  "marineso.com",
   "mark-compressoren.ru",
   "marketlink.info",
   "markmurfin.com",
