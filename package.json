@@ -3,10 +3,13 @@
   "version": "1.0.28",
   "description": "Detect disposable email domains — zero dependencies, auto-updated dataset",
   "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/index.js",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/cjs/index.js"
     }
   },
   "types": "./dist/index.d.ts",
@@ -18,7 +21,7 @@
   },
   "packageManager": "pnpm@9.15.0",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && tsc -p tsconfig.cjs.json && printf '{\"type\":\"commonjs\"}' > dist/cjs/package.json",
     "test": "vitest run",
     "test:watch": "vitest",
     "sync-domains": "tsx scripts/sync-domains.ts"
