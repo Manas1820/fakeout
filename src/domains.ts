@@ -1278,6 +1278,7 @@ export const DISPOSABLE_DOMAINS: ReadonlySet<string> = new Set<string>([
   "doobb.com",
   "doojazz.com",
   "doquier.tk",
+  "doreact.com",
   "dotapodemail.com",
   "dotman.de",
   "dotmsg.com",
