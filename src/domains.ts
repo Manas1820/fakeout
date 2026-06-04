@@ -94,6 +94,7 @@ export const DISPOSABLE_DOMAINS: ReadonlySet<string> = new Set<string>([
   "1secmail.website",
   "1st-forms.com",
   "1sworld.com",
+  "1t-mail.com",
   "1to1mail.org",
   "1trick.net",
   "1usemail.com",
