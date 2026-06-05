@@ -1,3 +1,18 @@
+## [1.0.29](https://github.com/Manas1820/fakeout/compare/v1.0.28...v1.0.29) (2026-06-05)
+
+
+### Bug Fixes
+
+* update disposable email domains ([dec1e27](https://github.com/Manas1820/fakeout/commit/dec1e27234e4bc6c6a1f34f4e20cc1a53a51c7ba))
+* update disposable email domains ([6c6a1ca](https://github.com/Manas1820/fakeout/commit/6c6a1ca6865a768bd57509965122d95411ae2186))
+* update disposable email domains ([f2e2fb6](https://github.com/Manas1820/fakeout/commit/f2e2fb6dfdcacc39047edae1c88dfce233352773))
+* update disposable email domains ([5ca97a2](https://github.com/Manas1820/fakeout/commit/5ca97a27c33b34b8301fedaa314705ae602b5210))
+* update disposable email domains ([c83f1ed](https://github.com/Manas1820/fakeout/commit/c83f1ed005f072b840d7797ee0d2816643f502a1))
+* update disposable email domains ([9d42146](https://github.com/Manas1820/fakeout/commit/9d42146e0e0e687fa6eb705598397a738635a689))
+* update disposable email domains ([23206e1](https://github.com/Manas1820/fakeout/commit/23206e1aac879f98a1282b4f0535e75016d1f9a2))
+* update disposable email domains ([4854d15](https://github.com/Manas1820/fakeout/commit/4854d152fd4cbc1595a03857a83167e4cc012ce6))
+* update disposable email domains ([fc306c3](https://github.com/Manas1820/fakeout/commit/fc306c3ecc54d6bdd3ad24b89ca06589f70b3324))
+
 ## [1.0.28](https://github.com/Manas1820/fakeout/compare/v1.0.27...v1.0.28) (2026-05-19)
 
 
