@@ -7816,6 +7816,7 @@ export const DISPOSABLE_DOMAINS: ReadonlySet<string> = new Set<string>([
   "xiajspof.eu.cc",
   "xiangshan.eu.cc",
   "xiaoche.ggff.net",
+  "xiaoguaishou.icu",
   "xiaohuangyu.ccwu.cc",
   "xiaoting.cc",
   "xib.icu",
