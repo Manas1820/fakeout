@@ -6369,6 +6369,7 @@ export const DISPOSABLE_DOMAINS: ReadonlySet<string> = new Set<string>([
   "skygazer42.cn",
   "skygazerhub.com",
   "skyhope666.icu",
+  "skyhopenb.shop",
   "skynet.infos.st",
   "skyrt.de",
   "skytopway.com",
