@@ -1,6 +1,6 @@
 {
   "name": "fakeout",
-  "version": "1.0.83",
+  "version": "1.0.84",
   "description": "Detect disposable email domains — zero dependencies, auto-updated dataset",
   "type": "module",
   "main": "./dist/cjs/index.js",
