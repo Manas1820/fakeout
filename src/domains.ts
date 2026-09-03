@@ -3178,6 +3178,7 @@ export const DISPOSABLE_DOMAINS: ReadonlySet<string> = new Set<string>([
   "goatmail.uk",
   "gob.re",
   "godfare.com",
+  "godulygmail.com",
   "goemailgo.com",
   "goeschman.com",
   "gohivezone.com",
