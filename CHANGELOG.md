@@ -1,3 +1,10 @@
+## [1.0.96](https://github.com/Manas1820/fakeout/compare/v1.0.95...v1.0.96) (2026-09-13)
+
+
+### Bug Fixes
+
+* update disposable email domains ([8b2fe48](https://github.com/Manas1820/fakeout/commit/8b2fe48d32212baeb160bd103a5df6c0dfda1863))
+
 ## [1.0.95](https://github.com/Manas1820/fakeout/compare/v1.0.94...v1.0.95) (2026-09-12)
 
 
