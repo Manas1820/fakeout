@@ -1417,6 +1417,7 @@ export const DISPOSABLE_DOMAINS: ReadonlySet<string> = new Set<string>([
   "boerakemail.com",
   "bofthew.com",
   "bokgumail.kr",
+  "bokkor1.cyou",
   "bomnet.net",
   "bonobo.email",
   "boofx.com",
